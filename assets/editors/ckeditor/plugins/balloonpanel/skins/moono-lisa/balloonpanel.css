@@ -55,7 +55,7 @@ a.cke_balloon_close_button:active
 {
 	overflow: hidden;
 	min-height: 68px;
-	padding: 0 6px 6px 6px;
+	padding: 0 6px 6px;
 }
 
 .cke_balloon_close_button:hover

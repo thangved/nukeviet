@@ -41,9 +41,9 @@
 .sliderwrapper .contentdiv h3 a {
     background: url(../images/transparent.png) repeat-x;
     color: #fff;
-    padding: 5px 3px 4px 3px;
+    padding: 5px 3px 4px;
     display: block;
-    margin: 0 3px 5px 3px;
+    margin: 0 3px 5px;
 }
 
 .sliderwrapper .contentdiv h3 a:hover {

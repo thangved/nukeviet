@@ -128,7 +128,7 @@ function get_alias(a) {
         "" != a ? document.getElementById("idalias").value = a : document.getElementById("idalias").value = ""
     });
     return !1
-};
+}
 
 function nv_open_file($_this) {
     var area = $_this.data('area');

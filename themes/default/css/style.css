@@ -579,7 +579,7 @@ div.check-box label [type='radio'] {
 
 figure {
     position: relative;
-    margin: 5px 0 10px 0;
+    margin: 5px 0 10px;
     text-align: center;
 }
 
@@ -986,7 +986,7 @@ a.btn {
     margin: 0;
     padding: 0;
     background-color: #fff linear-gradient(to bottom,
-            rgba(0, 0, 0, 0) 0px,
+            rgba(0, 0, 0, 0) 0,
             rgba(0, 0, 0, 0.1) 100%);
     background-repeat: repeat;
     background-attachment: scroll;
@@ -1256,7 +1256,7 @@ a.btn {
     left: 100%;
     margin-top: -6px;
     margin-left: -1px;
-    border-radius: 0 5px 5px 5px;
+    border-radius: 0 5px 5px;
 }
 
 #menusite .dropdown-submenu:hover > .dropdown-menu {
@@ -1332,7 +1332,7 @@ a.btn {
 
 .header-nav a.button .fa {
     position: relative;
-    transform: translate3d(-50%, -50%, 0px);
+    transform: translate3d(-50%, -50%, 0);
     left: 50%;
     top: 50%;
 }
@@ -1530,7 +1530,7 @@ a.btn {
     background-color: #fff;
     border-color: #dcdcdc;
     border-style: solid;
-    border-width: 0 1px 0 1px;
+    border-width: 0 1px;
     box-shadow: 0 0 4px rgba(0, 0, 0, 0.15);
     -webkit-box-shadow: 0 0 4px rgba(0, 0, 0, 0.15);
 }
@@ -1581,7 +1581,7 @@ a.btn {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate3d(-50%, -50%, 0px);
+    transform: translate3d(-50%, -50%, 0);
 }
 
 .footerNav2 .theme-change .fa-mobile {
@@ -1775,7 +1775,7 @@ a.btn {
 .nv-social-share {
     list-style: none;
     margin: 0;
-    padding: 4px 5px 0 5px !important;
+    padding: 4px 5px 0 !important;
 }
 
 .nv-social-share li {
@@ -2062,7 +2062,7 @@ input[type='radio']:checked:before {
 
 input[type='checkbox']:checked:before {
     content: '\f00c';
-    margin: 0 0 0 0;
+    margin: 0;
     color: #333333;
 }
 
@@ -2398,12 +2398,12 @@ button.close {
 
 .voting-col-2 {
     border-left: 1px solid #ccc;
-    padding: 0px 10px;
+    padding: 0 10px;
 }
 
 .padding-voting ul li {
-    margin: 0px 10px;
-    padding: 10px 0px;
+    margin: 0 10px;
+    padding: 10px 0;
     list-style: disc;
     text-align: justify;
 }

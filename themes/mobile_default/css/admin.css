@@ -173,7 +173,7 @@
         width: 100%;
         margin: 0;
         border-bottom: 1px #c2e7f8 solid;
-        padding: 6px 0 5px 0;
+        padding: 6px 0 5px;
         -webkit-box-shadow: 0 1px 1px rgba(255, 255, 255, 0.9);
         box-shadow: 0 1px 1px rgba(255, 255, 255, 0.9);
     }

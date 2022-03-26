@@ -29,7 +29,7 @@
 .content {
     background: #fff;
     height: 100%;
-    padding: 0 5px 40px 5px;
+    padding: 0 5px 40px;
 }
 
 .upload-wrap {
@@ -217,7 +217,7 @@
 }
 
 #rorateContent {
-    margin: 0 auto 10px auto;
+    margin: 0 auto 10px;
 }
 
 /* Rename File */
@@ -255,7 +255,7 @@
 
 #upload-queue .queue-header {
     position: absolute;
-    top: 0px;
+    top: 0;
     height: 30px;
     width: 100%;
     border-bottom: 1px solid #e1e1e8;
@@ -265,7 +265,7 @@
 
 #upload-queue .queue-opts {
     position: absolute;
-    bottom: 0px;
+    bottom: 0;
     height: 30px;
     width: 100%;
     padding-top: 5px;
@@ -306,7 +306,7 @@
 }
 
 #upload-queue-total .total-status .progress {
-    margin: 6px 0 0 0;
+    margin: 6px 0 0;
 }
 
 @media (max-width: 768px) {
@@ -417,8 +417,8 @@ img.previewimg {
     float: none;
     height: 30px;
     line-height: 30px;
-    margin-bottom: 0px;
-    margin-right: 0px;
+    margin-bottom: 0;
+    margin-right: 0;
     padding: 0 10px;
     text-align: left;
     width: 100%;
@@ -485,7 +485,7 @@ img.previewimg {
 }
 
 #cropimage .crop-content {
-    margin: 0 auto 10px auto;
+    margin: 0 auto 10px;
     border: 2px solid #f0f0f0;
 }
 
@@ -507,7 +507,7 @@ img.previewimg {
 }
 
 #addlogo .addlogo-content {
-    margin: 0 auto 10px auto;
+    margin: 0 auto 10px;
     border: 2px solid #f0f0f0;
 }
 

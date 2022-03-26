@@ -75,7 +75,7 @@ function nv_validForm(a) {
         }
     }));
     return !1
-};
+}
 $(function() {
     var a = $("#contactButton");
     if (a) {

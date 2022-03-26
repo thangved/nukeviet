@@ -184,7 +184,7 @@ function ftipShow(a, b, callback) {
         $("#ftip").attr("data-content", b).show("fast");
     }
     ftip_active = 1;
-};
+}
 
 function openID_load(a) {
     tip_active && tipHide();
@@ -216,7 +216,7 @@ function qrcodeLoad(a) {
         $(a).attr("data-load", "yes").click()
     });
     b.src = nv_base_siteurl + "index.php?second=qr&u=" + encodeURIComponent($(a).data("url"))
-};
+}
 
 // Switch tab
 function switchTab(a) {
@@ -231,7 +231,7 @@ function switchTab(a) {
     for (i = 1; i < b.length; i++) {
         $(c + " " + b[i]).addClass("hidden")
     }
-};
+}
 
 //Form Ajax-login
 function loginForm(redirect) {
@@ -632,7 +632,7 @@ $(function() {
                 iframe.data('loaded', true);
             }
         });
-    };
+    }
 
     // maxLength for textarea
     $("textarea").on("input propertychange", function() {

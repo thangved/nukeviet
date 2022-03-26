@@ -70,7 +70,7 @@ function modalShow(a, b, callback) {
         if (typeof callback === "function") {
             callback(this);
             $(e.currentTarget).unbind('shown');
-        };
+        }
     });
 }
 
