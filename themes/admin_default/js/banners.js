@@ -290,28 +290,28 @@ function find_User() {
             var obj = jQuery.parseJSON(data);
             if ($('#email_iavim').val() == '') {
                 $('#email_iavim').val(obj.email);
-            };
+            }
             if ($('#full_name').val() == '') {
                 $('#full_name').val(obj.full_name);
-            };
+            }
             if ($('#phone').val() == '') {
                 $('#phone').val(obj.phone);
-            };
+            }
             if ($('#website_iavim').val() == '') {
                 $('#website_iavim').val(obj.website);
-            };
+            }
             if ($('#location').val() == '') {
                 $('#location').val(obj.location);
-            };
+            }
             if ($('#yim_iavim').val() == '') {
                 $('#yim_iavim').val(obj.yim);
-            };
+            }
             if ($('#fax').val() == '') {
                 $('#fax').val(obj.fax);
-            };
+            }
             if ($('#mobile').val() == '') {
                 $('#mobile').val(obj.mobile);
-            };
+            }
         },
     });
 }

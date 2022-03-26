@@ -84,7 +84,7 @@ $(document).ready(function() {
         if (catids.length > 1) {
             for (i = 0; i < catids.length; i++) {
                 $("#catright_" + catids[i]).show();
-            };
+            }
             catid = parseInt($("input:radio[name=catid]:checked").val() + "");
             if (!catid) {
                 radios_catid.filter("[value=" + catids[0] + "]").prop("checked", true);
@@ -465,4 +465,4 @@ function nv_validForm(a, module_data, error_bodytext, error_cat) {
         }
     }
     return !0;
-};
+}

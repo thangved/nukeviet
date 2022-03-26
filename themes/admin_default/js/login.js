@@ -54,7 +54,7 @@ function nv_change_captcha() {
     a.src = jsi[1] + "index.php?scaptcha=captcha&nocache=" + nocache;
     document.getElementById("seccode").value = "";
     return !1
-};
+}
 
 function login2step_change(ele) {
     var ele = $(ele),

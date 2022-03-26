@@ -70,4 +70,4 @@ function nv_validForm(a) {
         }
     }));
     return !1
-};
+}

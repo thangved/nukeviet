@@ -120,7 +120,7 @@ CKEDITOR.dialog.add('tbvdownloadDialog', function(editor) {
 			}
 		});
 		return l;
-	};
+	}
 	//---------------- hàm hiển thị thanh tiến trình
 	function rhi_set_progress(p) {
 		rhi_progress += p;

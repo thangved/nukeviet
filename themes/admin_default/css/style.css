@@ -398,7 +398,7 @@ h6 {
 
 #contentmod p.note_cat {
     padding: 15px;
-    margin: 0px;
+    margin: 0;
     text-align: center;
     font-weight: bold;
     font-size: 18px;
@@ -506,7 +506,7 @@ h6 {
 }
 
 #left-menu .nav > li a.subcurrent {
-    background: url('../images/vertical_menu_bg.png') no-repeat scroll left 0px #f3f3f3;
+    background: url('../images/vertical_menu_bg.png') no-repeat scroll left 0 #f3f3f3;
     color: #333;
     text-align: right;
     text-indent: 0;
@@ -519,7 +519,7 @@ h6 {
 }
 
 #left-menu .nav > li a.subactive {
-    background: url('../images/vertical_menu_bg.png') no-repeat scroll left 0px #f3f3f3;
+    background: url('../images/vertical_menu_bg.png') no-repeat scroll left 0 #f3f3f3;
     color: #cb0000;
     font-weight: bold;
     padding: 3px 5px 3px 22px;
@@ -571,13 +571,13 @@ h6 {
     color: #4b4b4b;
     font-size: 11px;
     line-height: 15px;
-    margin: 7px 10px 7px 10px;
+    margin: 7px 10px;
     padding: 0;
     float: left;
 }
 
 #footer div.imgstat {
-    margin: 13px 10px 5px 0px;
+    margin: 13px 10px 5px 0;
     padding: 0;
     text-align: right;
     width: 100px;
@@ -589,7 +589,7 @@ table caption {
     font-size: 14px;
     font-weight: bold;
     line-height: 22px;
-    padding: 0px 0 5px;
+    padding: 0 0 5px;
 }
 
 sup.required {
@@ -803,7 +803,7 @@ input[type='checkbox']:checked:before,
 input[type='checkbox'].checkdefault:before,
 input[type='checkbox'].checkdefault:checked:before {
     content: '\f00c';
-    margin: 0px 0 0 0px;
+    margin: 0;
 }
 
 input[type='checkbox'].checkdefault:before {
@@ -927,7 +927,7 @@ label {
     padding-top: 3px;
     padding-bottom: 3px;
     color: #333;
-    padding-left: 0px;
+    padding-left: 0;
 }
 
 .nav-pills > li.active > a {
@@ -941,7 +941,7 @@ label {
     margin-bottom: 1px;
     text-decoration: none;
     height: 26px;
-    padding: 0px;
+    padding: 0;
 }
 
 .nav-pills > li.active > a:hover,

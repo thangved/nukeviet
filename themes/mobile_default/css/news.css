@@ -35,12 +35,12 @@
 }
 
 ul.other-news {
-    padding-left: 0px;
-    margin-left: 0px;
+    padding-left: 0;
+    margin-left: 0;
 }
 
 div.news_column .time {
-    margin: 3px 0 10px 0;
+    margin: 3px 0 10px;
     display: inline;
 }
 
@@ -57,7 +57,7 @@ div.news_column ul.list-inline li {
 }
 
 div.news_column .socialicon {
-    margin: -8px 0 -8px 0;
+    margin: -8px 0;
 }
 
 div.news_column .imghome {
@@ -95,7 +95,7 @@ div.news_column p.adminlink {
 ul.related {
     float: left;
     padding: 0;
-    margin: 0px;
+    margin: 0;
 }
 
 div.news_column ul.related li {
@@ -103,7 +103,7 @@ div.news_column ul.related li {
 }
 
 div.news_column {
-    padding: 10px 0px;
+    padding: 10px 0;
 }
 
 div.news_column .panel-heading {
@@ -204,7 +204,7 @@ div.news_column ul.related a:hover {
 #print h1,
 h2,
 p {
-    margin: 0 0 6px 0;
+    margin: 0 0 6px;
     padding: 0;
 }
 
@@ -225,7 +225,7 @@ p {
 #print #content ul.control {
     margin: 0;
     display: block;
-    padding: 7px 0 19px 0;
+    padding: 7px 0 19px;
 }
 
 #print #content ul.control li {
@@ -344,7 +344,7 @@ h2,
 
 .list-group {
     padding: 10px;
-    margin: 0px;
+    margin: 0;
 }
 
 .news-download-file {
@@ -385,6 +385,6 @@ h3.newh3 {
     padding-bottom: 10px;
     margin-bottom: 5px;
     padding-top: 10px;
-    margin-top: 0px;
+    margin-top: 0;
     color: #02659d;
 }
